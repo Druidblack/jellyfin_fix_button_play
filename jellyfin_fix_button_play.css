@@ -1,0 +1,21 @@
+.button-container button {
+  height: 2.75em !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.button-container button.btnPlay.play-button {
+  width: 2.75em !important;
+}
+
+.button-container button.btnPlay.play-button .play-text,
+.button-container button.btnPlay.play-button .detailButton-content::after {
+  display: none !important;
+  content: none !important;
+}
+
+.button-container button.detailButton,
+.button-container button.btnPlay.play-button {
+  margin-top: 0.2px !important;
+}
